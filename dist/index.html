@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css"> 
     <script src="main.js" defer></script>
 </head>
 <body>
-    
+    <div id="sidebar">
+        <div class="projects" id="project-list">
+            <div class="project-name-display">
+                <h2>Projects</h2>
+            </div>
+            <!-- Project List Items Will Be Appended Here -->
+        </div>
+        <div class="project-name-input">
+            <label for="project-name-input"></label>
+            <input type="text" id="project-name-input" placeholder="+ New Project">
+        </div>
+    </div>
+    <div id="main-content">
+        <!-- Todo List -->
+        <div class="todo-list" id="list-container">
+            <!-- Todo Items Will Be Appended Here -->
+        </div>
+        <!-- Todo Details -->
+        <div class="todo-details" id="todo-details">
+            <!-- Todo Details Will Be Displayed Here -->
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+    display: flex;
+    /* padding: 2rem; */
+    margin: 0;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: 100vh;
+    width: 30vw;
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+.project-name {
+    margin-top: .5rem ;
+}
+
+#main-content {
+    display: flex;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.todo-item {
+    background-color: whitesmoke;
+    border-radius: .5rem;
+    width: 10em;
+}
